@@ -27,7 +27,7 @@ foreach($files as $file){
 
     $file = str_replace(array('./php/', '.php'), array('', ''), $file);
 
-    $mdString[] = "| <a href='js/{$file}.php'>";
+    $mdString[] = "| <a href='php/{$file}.php'>";
     $mdString[] = "{$file}.php";
     $mdString[] = '</a> |';    
     $mdString[] = "<a href='js/{$file}.js'>";
