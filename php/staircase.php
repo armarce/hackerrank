@@ -1,5 +1,12 @@
 <?php
 
+/*
+ * Complete the 'staircase' function below.
+ *
+ * The function accepts INTEGER n as parameter.
+ */
+
+
 function staircase($n) {
     
     $i = 1;
@@ -22,5 +29,10 @@ function staircase($n) {
 
 }
 
+/*
+
+https://www.hackerrank.com/challenges/staircase/problem?isFullScreen=true
+ 
+*/
 
 ?>

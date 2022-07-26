@@ -1,5 +1,11 @@
 <?php
 
+/*
+ * Complete the 'miniMaxSum' function below.
+ *
+ * The function accepts INTEGER_ARRAY arr as parameter.
+ */
+
 function miniMaxSum($arr) {
 
     $arraySum = array();
@@ -18,11 +24,8 @@ function miniMaxSum($arr) {
 
 /*
 
-$arr = [1, 2 ,3 ,4 ,5];
-
-miniMaxSum($arr);
+https://www.hackerrank.com/challenges/mini-max-sum/problem?isFullScreen=true
 
 */
-
 
 ?>
