@@ -9,29 +9,15 @@
 
 function timeConversion($s){
 
-    $time = preg_replace('[\d\d:\d\d:\d\d]', '', $s);
-    preg_match_all("/^\d\d/", $s, $hour);
 
-    if($time == 'PM'){
+    $time = strtotime($s);
 
-        $hour = $hour[0][0] + 12;
-        $time = $hour.preg_replace('/^\d\d/', '', $s);
+    return date('H:i:s', $time);
     
-    }else{
-
-
-
-    }
-
-    echo $time;
 
 }
 
 timeConversion('07:05:45PM');
-
-//07:05:45PM
-
-//19:05:45
 
 /*
 
