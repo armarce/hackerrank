@@ -1,3 +1,9 @@
+/*
+ * Complete the 'staircase' function below.
+ *
+ * The function accepts INTEGER n as parameter.
+ */
+
 function staircase(n) {
   
     let i = 1;
@@ -21,3 +27,9 @@ function staircase(n) {
     console.log(result);
   
 }
+
+/*
+
+https://www.hackerrank.com/challenges/staircase/problem?isFullScreen=true
+
+*/
