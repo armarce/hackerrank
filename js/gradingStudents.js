@@ -1,3 +1,11 @@
+/*
+ * Complete the 'gradingStudents' function below.
+ *
+ * The function is expected to return an INTEGER_ARRAY.
+ * The function accepts INTEGER_ARRAY grades as parameter.
+ */
+
+
 function gradingStudents(grades){
 
     let newGrades = [];
@@ -30,6 +38,8 @@ function gradingStudents(grades){
 
 }
 
-let grades = [75, 67, 40, 33];
+/*
 
-gradingStudents(grades);
+https://www.hackerrank.com/challenges/grading/problem?isFullScreen=true
+
+*/

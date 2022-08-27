@@ -1,5 +1,13 @@
 <?php
 
+/*
+ * Complete the 'gradingStudents' function below.
+ *
+ * The function is expected to return an INTEGER_ARRAY.
+ * The function accepts INTEGER_ARRAY grades as parameter.
+ */
+
+
 function gradingStudents($grades){
 
     $newGrades = array();
@@ -32,8 +40,10 @@ function gradingStudents($grades){
 
 }
 
-$grades = array(73, 68, 40, 33);
+/*
 
-print_r(gradingStudents($grades));
+https://www.hackerrank.com/challenges/grading/problem?isFullScreen=true
+
+*/
 
 ?>
